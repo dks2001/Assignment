@@ -13,8 +13,6 @@ import Home from './Home';
 import Page2 from './Page2';
 
 function App() {
-
-
   
 
   return (
@@ -23,7 +21,7 @@ function App() {
         <Routes>
           <Route index element={<Home/>}/>
           <Route path="/page1" element={<Page1 />} />
-          <Route path="/page2" element={<Page2 />} />
+          
         </Routes>
       </BrowserRouter>
     </div>
